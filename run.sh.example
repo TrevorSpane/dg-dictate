@@ -1,0 +1,4 @@
+#!/bin/bash
+export DEEPGRAM_API_KEY='your_api_key_here'
+cd "$(dirname "$0")"
+./venv/bin/python3 dictate.py
